@@ -12,7 +12,7 @@ def create_deck(aleatory: bool = True) -> list:
 def to_distribute(deck: list, participants: int = 4) -> tuple:
     result: list = []
     for x in range(0, participants):
-        data: dict = deck[x::participants]
+        data: list = deck[x::participants]
         result.append(data)
     return tuple(result)
 
