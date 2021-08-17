@@ -1,5 +1,5 @@
-# pydeckgiver
-A Python program to distribute decks of suits and numbers randomly.
+# Pydeckgiver
+A Python program to distribute decks of 52 cards with suits and numbers, randomly.
 
 # Requirements
 1. Python installed (https://www.python.org/)
