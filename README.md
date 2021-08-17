@@ -2,8 +2,8 @@
 A Python program to distribute decks of 52 cards with suits and numbers, randomly.
 
 # Requirements
-1. Python installed (https://www.python.org/)
-2. Random module installed (if not, just type in cmd 'pip install random')
+1. Python installed (https://www.python.org/).
+2. Random module installed.
 
 # Usage
 1. Open the program (pydeckgiver.py) with your favorite IDE (i use PyCharm).
