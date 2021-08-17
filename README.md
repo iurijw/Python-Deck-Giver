@@ -17,4 +17,4 @@ A Python program to distribute decks of 52 cards with suits and numbers, randoml
 
 # Information
 This is my "first" program, and really basic.
-Sorry for any inconsistence, i pretend to be better!
+Sorry for any inconsistence, i intend to be better!
