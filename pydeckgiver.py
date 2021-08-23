@@ -1,5 +1,6 @@
 import random
 
+
 suits = '♠ ♡ ♢ ♣'.split();
 numbers = '2 3 4 5 6 7 8 9 10 J Q K A'.split();
 
@@ -26,8 +27,7 @@ if __name__ == '__main__':
         input(); quit()
 
     # Create a deck and distribute.
-    deck: list = create_deck(aleatory=True)
-    deck: tuple = to_distribute(deck=deck, participants=participants)
+    deck: tuple = to_distribute(deck=create_deck(aleatory=True), participants=participants)
 
     # Create player numbers.
     players: list = [f'P{x}' for x in range(1, participants + 1)]
